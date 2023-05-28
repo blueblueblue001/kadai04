@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width:100%;
+    font-family: 'Amatic SC', cursive;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+h1{
+    font-size: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#0d7dfd;
+}
+li:hover{
+    background: #0d7dfd;
+    color:#fff;
+}
+textarea{
+  margin: 10px 3%;
+  width: 95%;
+  height: 100px;
+  font-size:80%;
+  box-shadow: 3px 3px 3px 3px #555;
+  background-color:rgb(241, 239, 239);
+}
+#key{
+    margin:0 3%;
+    width: 95%;
+    font-size:80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+table{
+    margin: 20px 3%;
+    border:1px solid #8dc3f5;
+    width:96%;
+    
+}
+th{
+    width:30%;
+    font-size:24px;
+    background-color:#d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+td{
+    font-size:16px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+
+/* .h1-wrapper{
+    text-align: center;
+    padding: 10px;
+}; */
+
+.earth {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #95c5f2;
+    border-radius: 50%;
+    box-shadow: -20px 0 3px rgba(0, 0, 0, 0.3) inset;
+  }
+  
+  .earth:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-image: url(https://drive.google.com/uc?export=view&id=11chGBx0vAj79X4ph_fUXDQIYdRy9uqBV);
+    background-position: 0 0;
+    background-size: auto 100%;
+    transform: rotate(23.4deg);
+    animation: rotation 16s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  /* 画像のサイズを揃える */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-basis: 100%;
+}
+
+.image-wrap{
+    position: relative;
+    overflow: hidden;
+    padding-top: 60%;
+    margin: 10px 5px;
+}
+
+.image-wrap img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+  /* twitter画像をホバーした */
+/* .img.user_btn:hover{
+   
+      /* 透明度を上げることで、画像の色を薄く見せる。*/
+      /* opacity:0.5;
+   
+      /* リンクをホバーしたときのカーソルにする。*/
+      /* cursor: pointer;
+  }; */
+   
+  /* twitter画像をクリックした瞬間 */
+  /* .img.user_btn:active{ */
+   
+      /* 要素を若干下に下げることで、押した感じを出す。*/
+   
+      /* 今いる位置から相対的に3px下に配置する。*/
+      /* position: relative;
+      top: 3px;
+  /* }; */ 

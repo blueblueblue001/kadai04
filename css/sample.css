@@ -203,3 +203,122 @@ td{
     #next {
         float: right;
     }
+
+    /* --------------------
+    contact
+*---------------------*/
+
+.form-wrapper{
+    width:640px ;
+    margin: auto;
+    padding: 60px;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__text1{
+    margin: 60px;
+}
+
+.form__text2{
+    margin: 30px;
+}
+
+.form__text3{
+    margin: 75px;
+}
+
+.form-title{
+    width: 240px;
+    border: solid 2px;  /* 枠線指定 */
+    border-color: #bfbfbf;;
+    border-left-color:none ;
+    margin-left: 16px;
+    padding: 8px; 
+    text-align: left;     /* 余白指定 */
+    vertical-align:text-top
+
+}
+
+.form-item{
+    width: 400px;
+    border: solid 2px;  /* 枠線指定 */
+    border-color:#bfbfbf;
+    border-right-color: none;
+    padding: 8px;  
+    text-align: left;    /* 余白指定 */
+
+}
+
+.form__column{
+    width: 95%;
+    border: solid 1px; 
+    border-color: #bfbfbf;
+}
+
+.selectbox-003{
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+    }
+
+.submit-wrapper{
+    padding: 30px 0 140px;
+}
+
+.form__label{
+    padding: 8px;
+}
+
+.input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+/* チェックボックスデザイン */
+.input[type="checkbox"] {
+    cursor: pointer;
+    padding-left: 80px;/*label手前にチェックボックス用の余白を開ける*/
+    vertical-align: middle;
+    position: relative;
+  }
+ 
+.input[type="checkbox"]::before,
+  input[type="checkbox"]::after {
+    content: "";
+    display: block; 
+    position: absolute;
+  }
+ 
+.input[type="checkbox"]::before {
+    background-color: #fff;
+    border-radius: 0%;
+    border: 1px solid #666464;
+    width: 20px;/*チェックボックスの横幅*/
+    height: 20px;/*チェックボックスの縦幅*/
+    transform: translateY(-50%);
+
+  }
+ 
+.input[type="checkbox"]::after {
+    border-bottom: 3px solid #666464;/*チェックの太さ*/
+    border-left: 3px solid #666464;/*チェックの太さ*/
+    opacity: 0;/*チェック前は非表示*/
+    height: 6px;/*チェックの高さ*/
+    width: 11px;/*チェックの横幅*/
+    transform: rotate(-45deg);
+  }
+ 
+.input[type="checkbox"]:checked::after {
+    opacity: 1;/*チェック後表示*/
+  }

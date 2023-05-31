@@ -18,6 +18,11 @@ h1{
     font-size: 100%;
     font-family: 'Amatic SC', cursive;
 }
+h2{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Amatic SC', cursive;
+}
 main{
     width:100%;
     display: block;
@@ -54,7 +59,7 @@ li{
     color:#0d7dfd;
 }
 li:hover{
-    background: #0d7dfd;
+    background: #3e8be4;
     color:#fff;
 }
 textarea{
@@ -80,7 +85,7 @@ table{
 }
 th{
     width:30%;
-    font-size:24px;
+    font-size:20px;
     background-color:#d0e7fc;
     border-bottom: 1px solid #8dc3f5;
 }

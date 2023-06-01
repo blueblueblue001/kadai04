@@ -20,6 +20,8 @@ h1{
 }
 h2{
     text-align: center;
+    font-weight: bold;
+    color: darkblue;
     font-size: 70%;
     font-family: 'Amatic SC', cursive;
 }
@@ -94,11 +96,6 @@ td{
     background-color:rgb(241, 239, 239);
     border-bottom: 1px solid #8dc3f5;
 }
-
-/* .h1-wrapper{
-    text-align: center;
-    padding: 10px;
-}; */
 
 .earth {
     margin: auto;
@@ -184,39 +181,14 @@ td{
 
     /*ボタン*/
 
-    /* カレンダー */
-    #next-prev-button {
-        position: relative;
-    }
-    #next-prev-button button{
-        cursor: pointer;
-        background: #B78D4A;
-        color: #fff;
-        border: 1px solid #B78D4A;
-        border-radius: 4px;
-        font-size: 1rem;
-        padding: 0.5rem 2rem;
-        margin: 1rem 0;
-    }
-    #next-prev-button button:hover{
-        background-color: #D4BB92;
-        border-color: #D4BB92;
-    }
-    #prev {
-        float: left;
-    }
-    #next {
-        float: right;
-    }
-
-    /* --------------------
+/* --------------------
     contact
 *---------------------*/
 
 .form-wrapper{
     width:640px ;
     margin: auto;
-    padding: 60px;
+    padding: 20px;
 }
 
 .form-inner{
@@ -327,3 +299,8 @@ td{
 .input[type="checkbox"]:checked::after {
     opacity: 1;/*チェック後表示*/
   }
+
+.submit-wrapper{
+    text-align: center;
+  }
+  
